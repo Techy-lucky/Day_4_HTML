@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid practice</title>
+    <style>
+        body{
+            padding-bottom: 1000px;
+        }
+        .div1 {
+            background-color: lightblue;
+        }
+
+        .div2 {
+            background-color: lightpink;
+        }
+
+        .div3 {
+            background-color: lightgreen;
+        }
+
+        .div11 {
+            background-color: lightblue;
+            height: 200px;
+            /* width: 200px; */
+        }
+
+        .div22 {
+            background-color: lightpink;
+            height: 200px;
+
+        }
+
+        .div33 {
+            background-color: lightgreen;
+            height: 200px;
+
+        }
+
+        .maindiv1 {
+            display: grid;
+            grid-template-columns: 100px 100px;
+        }
+
+        .maindiv2 {
+            display: grid;
+            grid-template-columns: 100px 100px 200px;
+            margin-top: 30px;
+        }
+
+        .maindiv3 {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            margin-top: 30px;
+        }
+
+        .maindiv4 {
+            display: grid;
+            grid-template-columns: 100px 1fr 2fr;
+            margin-top: 30px;
+        }
+
+        .maindiv5 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-top: 30px;
+            column-gap: 20px;
+            row-gap: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="maindiv1">
+        <div class="div1">div 1</div>
+        <div class="div2">div 2 <p>text</p>
+        </div>
+    </div>
+    <div class="maindiv2">
+        <div class="div1">div 1</div>
+        <div class="div2">div 2 <p>text</p>
+        </div>
+        <div class="div1">div 1</div>
+        <div class="div2">div 2
+        </div>
+    </div>
+
+    <div class="maindiv3">
+        <div class="div1">div 1</div>
+        <div class="div2">div 2</div>
+    </div>
+
+    <div class="maindiv4">
+        <div class="div1">div 1</div>
+        <div class="div2">div 2</div>
+        <div class="div3">div 3</div>
+    </div>
+
+    <div class="maindiv5">
+        <div class="div11">1fr</div>
+        <div class="div22">1fr</div>
+        <div class="div33">1fr</div>
+        <div class="div22">1fr</div>
+        <div class="div33">1fr</div>
+        <div class="div11">1fr</div>
+    </div>
+
+    </div>
+</body>
+
+</html>
