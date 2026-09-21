@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        body {
+            padding-bottom: 1000px;
+        }
+
+        .mainflex {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .div1 {
+            background-color: lightblue;
+        }
+
+        .div2 {
+            background-color: lightpink;
+        }
+
+        .mainflex1 {
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+        }
+
+        .divv1 {
+            background-color: lightblue;
+            width: 100px;
+        }
+
+        .divv2 {
+            background-color: lightpink;
+            flex: 1;
+        }
+
+        .mainflex2 {
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+        }
+
+        .mainflex3 {
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            height: 70px;
+            border: 1px solid gray;
+            justify-content: center;
+        }
+
+        .mainflex4 {
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            height: 70px;
+            border: 1px solid gray;
+            justify-content: space-between;
+        }
+        .mainflex5 {
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            height: 70px;
+            border: 1px solid gray;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .div11 {
+            background-color: lightpink;
+            width: 100px;
+        }
+
+        .div22 {
+            background-color: lightblue;
+            flex: 1;
+        }
+
+        .div33 {
+            background-color: lightblue;
+            flex: 2;
+        }
+
+        .div111 {
+            background-color: lightpink;
+            width: 100px;
+        }
+
+        .div222 {
+            background-color: lightblue;
+            width: 100px;
+
+        }
+
+        .div333 {
+            background-color: lightblue;
+            width: 100px;
+
+        }
+        .div1111 {
+            background-color: lightpink;
+            width: 100px;
+        }
+
+        .div2222 {
+            background-color: lightblue;
+            width: 100px;
+
+        }
+        .div3333 {
+            background-color: lightblue;
+            width: 100px;
+
+        }
+        .div11111 {
+            background-color: lightpink;
+            width: 100px;
+        }
+
+        .div22222 {
+            background-color: lightblue;
+            width: 100px;
+
+        }
+        .div33333 {
+            background-color: lightblue;
+            width: 100px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainflex">
+        <div class="div1">div 1 text </div>
+        <div class="div2">div 2 <p>tezt</p>
+        </div>
+    </div>
+
+    <div class="mainflex1">
+        <div class="divv1">100px</div>
+        <div class="divv2">flex1</div>
+    </div>
+
+    <div class="mainflex2">
+        <div class="div22">flex1</div>
+        <div class="div11">100px</div>
+        <div class="div33">flex2</div>
+    </div>
+
+    <div class="mainflex3">
+        <div class="div222">100px</div>
+        <div class="div111">100px</div>
+        <div class="div333">100px</div>
+    </div>
+
+    <div class="mainflex4">
+        <div class="div2222">100px</div>
+        <div class="div1111">100px</div>
+        <div class="div3333">100px</div>
+    </div>
+
+    <div class="mainflex5">
+        <div class="div22222">100px</div>
+        <div class="div11111">100px</div>
+        <div class="div33333">100px</div>
+    </div>
+</body>
+
+</html>
